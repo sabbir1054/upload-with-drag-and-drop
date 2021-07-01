@@ -66,7 +66,7 @@ function showFile() {
         fileReader.readAsDataURL(file);
     } 
     else {
-        alert(fileType, " is not valid");
+        alert("File formate  is not valid");
         dropOutArea.classList.remove("active");
         dragText.textContent = "Drag & Drop to Upload File";
     }
